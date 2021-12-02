@@ -1,0 +1,270 @@
+body {
+  background-color: hsl(0, 8%, 91%);
+}
+
+.sizelogo {
+  max-height: 20px;
+  width: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  color: blue;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: inline;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+  margin-right: auto;
+}
+.menu-list a {
+  color: gray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.first-title {
+  text-align: center;
+  color: #00b39b;
+}
+.parcontainer {
+  display: flex;
+}
+.paragraphe {
+  color: #747474;
+}
+.paragraphe {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+.titre-weare {
+  color: #00ccb1;
+}
+.block-conatiner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  padding: 70px 10px;
+  margin-right: 10 px;
+  font-size: smaller;
+  border-radius: 10px;
+}
+
+#patients {
+  background-color: #00ccb1;
+}
+#doctors {
+  background-color: #3d83df;
+}
+#clinics {
+  background-color: #1b2734;
+}
+span {
+  width: 350px;
+  height: 350px;
+}
+.para {
+  font-size: large;
+  color: white;
+}
+.titless {
+  color: white;
+}
+.all-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: nowrap;
+}
+.titre-weare {
+  margin: 10px;
+}
+.withlogos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fullblock {
+  display: flex;
+  justify-content: flex-end;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+.block2 {
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  width: 200px;
+  height: 200px;
+  background-color: #00ccb1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.text-block {
+  display: flex;
+  justify-content: flex-start;
+  margin: 150px 200px;
+  flex-direction: column;
+}
+#theworld {
+  color: #00b39b;
+}
+#wework {
+  color: #747474;
+}
+
+.hh1 {
+  color: white;
+}
+.hh2 {
+  color: white;
+}
+
+.Improve-title {
+  text-align: center;
+  color: #00b39b;
+  margin-bottom: 20px;
+}
+.More-than {
+  text-align: center;
+  color: #747474;
+  width: 60%;
+  margin-left: 250px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 15 px;
+  margin: 30px;
+  padding: 25px 50px 75px 100px;
+
+  flex-direction: row;
+}
+.cities {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10 px;
+  border-radius: 3px;
+}
+
+.city-button {
+  background-color: #70c3f3;
+  border-radius: 3px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  list-style: none;
+  margin: 0;
+  outline: none;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
+}
+
+.sounds-title {
+  text-align: center;
+  color: #333;
+}
+
+.bcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonnn1 {
+  background-color: #1662c6;
+  border-radius: 3px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  list-style: none;
+  margin: 0;
+  outline: none;
+
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  font-size: larger;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 10;
+}
+
+.lowfooter {
+  text-align: center;
+  color: #ababab;
+}
